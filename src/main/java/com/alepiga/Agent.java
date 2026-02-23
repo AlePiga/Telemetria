@@ -14,7 +14,7 @@ public class Agent {
     public static void main(String[] args) {
         try {
             while(true){
-                // Variabili della telemetria
+                // Variabili di telemetria
                 SystemInfo si =  new SystemInfo();
                 GlobalMemory gmemory = si.getHardware().getMemory();
                 long totalMemory = gmemory.getTotal();
