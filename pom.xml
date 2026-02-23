@@ -13,5 +13,16 @@
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    
+<dependencies>
+    <dependency>
+        <groupId>com.github.oshi</groupId>
+        <artifactId>oshi-core</artifactId>
+        <version>6.9.3</version>
+    </dependency>
+    <dependency>
+        <groupId>de.vandermeer</groupId>
+        <artifactId>asciitable</artifactId>
+        <version>0.3.2</version>
+    </dependency>
+</dependencies>
 </project>
